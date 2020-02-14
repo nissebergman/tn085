@@ -11,6 +11,7 @@
 </head>
 
 <body>
+	hej
     <script src="JS/main.js"></script>
 </body>
 
