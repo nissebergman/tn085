@@ -41,6 +41,7 @@ floorMaterial;
 var floor, world, table; 
 
 const roomSize = 30;
+const modelFolder = "../WebGL/Assets/Models/"
 const textureFolder = "../WebGL/Assets/Textures/";
 
 
@@ -118,7 +119,7 @@ scene.add(floor);
 //		 Import and add objects to scene	       //
 /////////////////////////////////////////////////////
 objectLoader.load(
-	'/Assets/Models/world.gltf',
+	modelFolder + 'world.gltf',
 	function(gltf) {
 		world = gltf.scene;
 		world.castShadow = true;
@@ -130,7 +131,7 @@ objectLoader.load(
 	});
 
 objectLoader.load(
-	'/Assets/Models/table.gltf',
+	modelFolder + 'table.gltf',
 	function(gltf) {
 		table = gltf.scene;
 		table.scale.set(1.5,1.5,1.5);
