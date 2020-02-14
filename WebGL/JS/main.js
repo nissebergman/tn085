@@ -41,7 +41,7 @@ floorMaterial;
 var floor, world, table; 
 
 const roomSize = 30;
-const textureFolder = "/Assets/Textures/";
+const textureFolder = "../WebGL/Assets/Textures/";
 
 
 /////////////////////////////////////////////////////
