@@ -7,7 +7,7 @@
     <script src='../WebGL/JS/OrbitControls.js'></script>
     <script src='../WebGL/JS/GLTFLoader.js'></script>
     <script src='../WebGL/Extern/noisejs/perlin.js'></script>
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="../WebGL/style/style.css">
 </head>
 
 <body>
